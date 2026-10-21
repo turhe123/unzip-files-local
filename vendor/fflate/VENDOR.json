@@ -1,0 +1,10 @@
+{
+  "name": "fflate",
+  "version": "0.8.2",
+  "license": "MIT",
+  "entry": "vendor/fflate/fflate.js (classic script, global fflate)",
+  "sources": {
+    "fflate.js": "https://cdn.jsdelivr.net/npm/fflate@0.8.2/umd/index.js",
+    "LICENSE": "https://cdn.jsdelivr.net/npm/fflate@0.8.2/LICENSE"
+  }
+}

@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SEO:START — the builder rewrites title / description / keywords for search (see CLAUDE.md) -->
+  <title>Unzip Files Online – Free, Private ZIP Extractor in Your Browser</title>
+  <meta name="description" content="Open a ZIP file online without uploading it: browse folders, preview text and images, and save one file or all of them. Free, private, works on phones.">
+  <meta name="keywords" content="unzip online, open zip file online, extract zip online, unzip files on phone, zip extractor, view zip contents, zip viewer, unzip on iphone, unzip on chromebook">
+  <!-- SEO:END -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e0f14" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://turhe123.github.io/unzip-files-local/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Unzip Files Online – Free, Private, In Your Browser">
+  <meta property="og:description" content="Open a ZIP in your browser, browse its files, and save one or all of them, with nothing uploaded. Free and open source, nothing is uploaded, works offline.">
+  <meta property="og:url" content="https://turhe123.github.io/unzip-files-local/">
+  <meta property="og:image" content="https://turhe123.github.io/unzip-files-local/docs/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Unzip Files Online">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Unzip Files Online – Free, Private, In Your Browser">
+  <meta name="twitter:description" content="Open a ZIP in your browser, browse its files, and save one or all of them, with nothing uploaded. Free and open source, nothing is uploaded, works offline.">
+  <meta name="twitter:image" content="https://turhe123.github.io/unzip-files-local/docs/og.png">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Unzip Files Online",
+    "alternateName": "Unzip Files Online – Free, Private, In Your Browser",
+    "description": "Open a ZIP in your browser, browse its files, and save one or all of them, with nothing uploaded. Free and open source, nothing is uploaded, works offline.",
+    "url": "https://turhe123.github.io/unzip-files-local/",
+    "image": "https://turhe123.github.io/unzip-files-local/docs/og.png",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript. Works offline after the first visit.",
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "license": "https://opensource.org/licenses/MIT",
+    "softwareVersion": "1.0.0",
+    "author": { "@type": "Person", "name": "Or Davidai Bachar", "url": "https://github.com/turhe123" },
+    "sameAs": ["https://github.com/turhe123/unzip-files-local"]
+  }
+  </script>
+  <script src="vendor/fflate/fflate.js" defer></script>
+  <!-- Page views are counted with GoatCounter: no cookies, no personal data, open source. -->
+  <script data-goatcounter="https://turhe123.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#tool">Skip to the tool</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="./" aria-label="Unzip Files Online home">
+        <img class="brand__icon" src="icon.svg" alt="" width="28" height="28">
+        <span class="brand__name">Unzip Files Online</span>
+      </a>
+      <nav class="site-nav" aria-label="Page">
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com/turhe123/unzip-files-local" rel="noopener">GitHub</a>
+        <a href="https://turhe123.github.io/web-tools/" rel="noopener" class="site-nav__more">More tools</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <!-- HERO:START — the builder may refine the headline and promise; keep the trust badges -->
+      <h1 class="hero__title">Unzip Files Online</h1>
+      <p class="hero__lead">Open a ZIP in your browser, browse its files, and save one or all of them, with nothing uploaded.</p>
+      <!-- HERO:END -->
+      <ul class="badges" aria-label="Why this tool is safe to use">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v6c0 4 3 7 7 9 4-2 7-5 7-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Runs in your browser, files never leave your device</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Free, open source, no account, no ads</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 9.5 17 19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Works offline after the first visit</li>
+      </ul>
+    </section>
+
+    <section class="container" id="tool" aria-labelledby="tool-title">
+      <div class="tool-card">
+        <!-- TOOL:START — the builder replaces everything between these markers with the real tool UI -->
+        <h2 id="tool-title" class="visually-hidden">Open and extract a ZIP file</h2>
+        <div class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Choose a ZIP file or drop it here">
+          <label class="visually-hidden" for="file-input">Choose a ZIP file</label>
+          <input class="dropzone__input" id="file-input" type="file" accept=".zip,application/zip,application/x-zip-compressed" aria-describedby="dropzone-hint">
+          <svg class="dropzone__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l5 5v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 4v2m0 2v2m0 2v2m-1 2h2v3H9z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <p class="dropzone__title" id="dropzone-title">Drop a ZIP file here or <span class="link">choose a ZIP</span></p>
+          <p class="dropzone__hint" id="dropzone-hint">Your ZIP is opened on this device. Files never leave it, nothing is uploaded.</p>
+        </div>
+        <div class="results" id="results" aria-live="polite"></div>
+        <div class="explorer" id="explorer" hidden>
+          <div class="explorer__toolbar">
+            <div class="field explorer__search">
+              <label for="filter">Filter by name</label>
+              <input type="search" id="filter" placeholder="e.g. .csv or receipt" autocomplete="off" spellcheck="false">
+            </div>
+            <div class="row explorer__tree-btns">
+              <button class="btn btn--small" type="button" id="expand-all">Expand all</button>
+              <button class="btn btn--small" type="button" id="collapse-all">Collapse all</button>
+            </div>
+          </div>
+          <p class="explorer__keys" id="keys-hint"><span class="kbd">↑</span> <span class="kbd">↓</span> move · <span class="kbd">Space</span> select · <span class="kbd">Enter</span> preview · <span class="kbd">←</span> <span class="kbd">→</span> fold</p>
+          <div class="explorer__body">
+            <div class="explorer__list">
+              <div class="table-wrap">
+                <table class="entries" id="entries" aria-label="Files in the archive" aria-describedby="keys-hint">
+                  <thead>
+                    <tr>
+                      <th class="c-check" scope="col"><input type="checkbox" id="select-all" aria-label="Select all files"></th>
+                      <th class="c-name" scope="col">Name</th>
+                      <th class="c-size" scope="col">Size</th>
+                      <th class="c-packed" scope="col">Compressed</th>
+                      <th class="c-date" scope="col">Modified</th>
+                      <th class="c-act" scope="col"><span class="visually-hidden">Actions</span></th>
+                    </tr>
+                  </thead>
+                  <tbody id="entries-body"></tbody>
+                </table>
+              </div>
+              <p class="explorer__note" id="list-note" hidden></p>
+            </div>
+            <aside class="explorer__preview" id="preview-panel" aria-labelledby="preview-title">
+              <h3 class="preview-panel__title" id="preview-title">Preview</h3>
+              <div class="preview-panel__body" id="preview">
+                <p class="preview-panel__empty">Click a file name, or move to it and press Enter, to see its first lines or the picture inside.</p>
+              </div>
+            </aside>
+          </div>
+          <div class="actionbar" id="actionbar">
+            <div class="actionbar__status">
+              <p class="actionbar__info" id="selection-info">No files selected</p>
+              <div class="actionbar__progress" id="progress-wrap" hidden>
+                <div class="progress" role="progressbar" aria-label="Extraction progress" aria-valuemin="0" aria-valuemax="100" id="progress"><span id="progress-bar"></span></div>
+                <span class="actionbar__progress-text" id="progress-text"></span>
+              </div>
+            </div>
+            <div class="actionbar__btns">
+              <button class="btn btn--primary" type="button" id="save-selected" disabled>Save selected</button>
+              <button class="btn" type="button" id="zip-selected" disabled>Save selected as one .zip</button>
+              <button class="btn" type="button" id="save-all">Save all as separate files</button>
+            </div>
+          </div>
+        </div>
+        <!-- TOOL:END -->
+      </div>
+    </section>
+
+    <section class="container section" id="how" aria-labelledby="how-title">
+      <h2 id="how-title" class="section__title">How it works</h2>
+      <!-- HOW:START — three honest steps for this tool -->
+      <ol class="steps">
+        <li><strong>Open your ZIP.</strong> Drop it on the page or pick it from your files. Only the file list at the end of the archive is read, so even big archives open in a moment.</li>
+        <li><strong>Look inside.</strong> Fold and unfold folders, filter by name, and preview text files or pictures before you save anything. Password-protected files are clearly marked.</li>
+        <li><strong>Save what you need.</strong> Save one file, tick several and save them, save everything as separate files, or repack your selection into a new, smaller ZIP. Only the files you ask for are decompressed.</li>
+      </ol>
+      <!-- HOW:END -->
+    </section>
+
+    <section class="container section" id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title" class="section__title">Questions, answered</h2>
+      <!-- FAQ:START — 4 to 6 questions; keep the privacy, offline and AI answers -->
+      <details class="faq" open>
+        <summary>Are my files uploaded anywhere?</summary>
+        <p>No. Unzip Files Online runs entirely in your browser. Your ZIP is read on your device, decompressed with JavaScript, and never sent to a server. You can disconnect from the internet and it keeps working, which makes it safe for bank statements, exported data or anything else private.</p>
+      </details>
+      <details class="faq">
+        <summary>Can I unzip files on an iPhone, iPad or Chromebook?</summary>
+        <p>Yes. It works in Safari, Chrome, Edge and Firefox on phones, tablets, Chromebooks and locked-down work laptops where you cannot install an archive app. Very large archives (over about 1 GB) may run out of memory on phones, and the tool warns you before that happens.</p>
+      </details>
+      <details class="faq">
+        <summary>What about password-protected ZIPs, RAR, 7z or split archives?</summary>
+        <p>Encrypted entries are listed and marked as password protected, but this tool cannot open them; use a desktop app such as 7-Zip with the password. RAR, 7z, self-extracting .exe files and split archives (.z01, .zip.001) are recognised and explained instead of failing silently. Only regular ZIP files, including ZIP64, can be extracted.</p>
+      </details>
+      <details class="faq">
+        <summary>Is it really free?</summary>
+        <p>Yes. It is open source under the MIT license, with no account, no file size limits, no ads and no fake download buttons. If it saves you a paid subscription, you can say thanks on Ko-fi.</p>
+      </details>
+      <details class="faq">
+        <summary>Does it work offline?</summary>
+        <p>Yes. After your first visit the page is cached by a service worker, so it loads without a connection. You can also install it from your browser's menu as an app.</p>
+      </details>
+      <details class="faq">
+        <summary>Was this written by AI?</summary>
+        <p>Yes. Unzip Files Online was generated by Claude Code from a written specification inside an automated pipeline, with a test suite that runs in a real browser. The full source is on GitHub, so you can read every line before you trust it with your files.</p>
+      </details>
+      <!-- FAQ:END -->
+    </section>
+
+    <section class="container section" id="support">
+      <div class="support-card">
+        <h2 class="section__title">Built by one person, given away for free</h2>
+        <p>Unzip Files Online is a free alternative to paid tools like ezyZip Unzip. If it earns a place in your bookmarks, a coffee keeps the updates coming.</p>
+        <a class="btn btn--kofi" href="https://ko-fi.com/leodavidai" rel="noopener">☕ Support Or on Ko-fi</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="site-footer__links">
+        <a href="https://github.com/turhe123/unzip-files-local" rel="noopener">Source on GitHub</a> ·
+        <a href="https://github.com/turhe123/unzip-files-local/issues" rel="noopener">Report a bug</a> ·
+        <a href="https://turhe123.github.io/web-tools/" rel="noopener">More free web tools</a> ·
+        <a href="https://ko-fi.com/leodavidai" rel="noopener">Ko-fi</a>
+      </p>
+      <p class="site-footer__disclosure"><strong>Built with AI.</strong> Unzip Files Online was written by Claude Code inside an automated pipeline from a plain-English spec, as a clean-room implementation: no code or assets from any commercial product. It runs entirely in your browser, makes no network requests except an anonymous, cookieless page-view count, and has had less human review than hand-written software. Bug reports and pull requests are welcome.</p>
+      <p class="site-footer__copy">© 2026 Or Davidai Bachar · MIT License · <span id="sw-status" class="sw-status" aria-live="polite"></span></p>
+    </div>
+  </footer>
+
+  <script type="module" src="site.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

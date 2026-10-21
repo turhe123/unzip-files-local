@@ -1,0 +1,34 @@
+[
+  {
+    "file": "01-desktop-light.png",
+    "caption": "Unzip Files Online in the browser, light theme",
+    "alt": "Unzip Files Online at 1440×900, light theme",
+    "width": 1440,
+    "height": 900,
+    "scheme": "light"
+  },
+  {
+    "file": "02-desktop-dark.png",
+    "caption": "Unzip Files Online in the browser, dark theme",
+    "alt": "Unzip Files Online at 1440×900, dark theme",
+    "width": 1440,
+    "height": 900,
+    "scheme": "dark"
+  },
+  {
+    "file": "03-phone-light.png",
+    "caption": "Unzip Files Online on a phone",
+    "alt": "Unzip Files Online at 390×844, light theme",
+    "width": 390,
+    "height": 844,
+    "scheme": "light"
+  },
+  {
+    "file": "04-phone-dark.png",
+    "caption": "Unzip Files Online on a phone, dark theme",
+    "alt": "Unzip Files Online at 390×844, dark theme",
+    "width": 390,
+    "height": 844,
+    "scheme": "dark"
+  }
+]
